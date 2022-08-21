@@ -1,0 +1,12 @@
+body{
+    background-image: url(/Users/melissakobia/Desktop/HTML/assets/homebgimg.jpeg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    
+}
+#logindtls{
+    align-items: baseline;
+    place-content: center;
+    padding: 300px;
+}

@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+    
+    margin: 0%;
+    padding: 0%;
+}
+li, a, button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-family: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+header{
+    background-color: rgb(10, 10, 35);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+}
+.logo{
+    height: 50px;
+    width: auto;
+    display: flex;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-right: auto;
+
+}
+
+.background-img{
+
+   background-image: url(/Users/melissakobia/Desktop/HTML/assets/parking.jpeg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   
+   height: 107vh;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+     display: inline;
+     padding: 8px 20px;
+} 
+.navlinks li a{
+     transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+      color: #0088a9;
+}
+button{
+    padding: 10px 25px;
+    
+    justify-content: space-between;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(136, 0, 0);
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 107vh;
+    background-color: rgba(33, 37, 41, 0.85);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+    -webkit-box-align: center;
+
+
+}
+.homelogo{
+    justify-content: center;
+    padding: 50 50;
+    width:200px;
+    margin: 0px 0px 30px;
+
+}
+.mt-3{
+    margin-top: 1rem !important;
+}
+.btn-primary{
+    color: #fff;
+    background-color: rgb(112, 111, 0) ;
+    border-color: rgba(112, 111, 0,) ;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: rgb(68, 41, 0);
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.55rem 1.125rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
